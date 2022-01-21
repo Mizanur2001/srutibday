@@ -217,6 +217,7 @@ body{
     gap: 25px;
     align-items: flex-start;
     padding: 5px 5%;
+    margin-top: 30px;
 }
 
 .btsConcertContainer video{
@@ -224,19 +225,10 @@ body{
     border-radius: 10px;
 }
 
-.chatContainer::-webkit-scrollbar{
-    width: 5px;
+video::-webkit-media-controls-timeline {
+    display: none;
 }
 
-.chatContainer::-webkit-scrollbar-tark{
-    background: #ccc;
-    border-radius: 50px;
-}
-
-.chatContainer::-webkit-scrollbar-thumb{
-    background: #666;
-    border-radius: 50px;
-}
 
 .chatContainer{
     color: white;
@@ -244,6 +236,7 @@ body{
     border-radius: 5px;
     max-height: 335px;
     overflow-y: hidden;
+    margin-bottom: 65px;
 }
 
 .heading {
@@ -277,6 +270,18 @@ body{
     padding-top: 8px;
     font-size: 16px;
     font-family: 'Ubuntu', sans-serif;
+}
+
+.liveBtn{
+    background: #c00;
+    border: 0px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    cursor: none;
+    float: right;
+    margin-bottom: 8px;
 }
 
 .f-size-100{

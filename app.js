@@ -50,7 +50,7 @@ giftClose.addEventListener('click', () => {
           <div class="giftCode">
              <p>BTS Wish code</p>
              <p>XDR-HYT-11S</p>
-             <p>BTS Concert code</p>
+             <p>BTS Live Concert Ticket</p>
              <p>G1Y-F24-56M</p>
           </div>
         </div>`;
@@ -134,6 +134,7 @@ function funcInput() {
             const btsConcertContainer = document.getElementById('btsConcertContainer');
             html = `
                 <div class="video">
+                    <button class="liveBtn">LIVE</button>
                     <video src="video.MP4" controls autoplay></video>
                 </div>
                 <div class="chatContainer" id="chatContainer">
@@ -154,7 +155,6 @@ function funcInput() {
                             </div>`;
                     allChats.innerHTML = html;
                 });
-
 
                 setInterval(() => { chatContainer.scrollBy(0, 45); }, 1000)
             });
