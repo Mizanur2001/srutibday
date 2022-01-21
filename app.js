@@ -127,6 +127,7 @@ function funcInput() {
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/pcrafxdvX9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                </div>`;
             btsGifWishVideo.innerHTML = html;
+            btsConcertContainer.innerHTML = ``;
         }
         else if (code == 'G1Y-F24-56M') {
             codeInput.classList.add('is-valid');
@@ -158,6 +159,9 @@ function funcInput() {
 
                 setInterval(() => { chatContainer.scrollBy(0, 45); }, 1000)
             });
+            btsGiftContainer.innerHTML = ``;
+            btsGifWishVideo.innerHTML = ``;
+            btsGiftContainer.classList.remove('height-118rem');
         }
         else {
             codeInput.classList.add('is-invalid');
