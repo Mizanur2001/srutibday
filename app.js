@@ -1,5 +1,8 @@
 console.log("This is Sruti's Birth day Colsole.log");
 
+let btsWish = false;
+let btsConcert = false;
+
 const giftContainer = document.getElementById('giftContainer');
 const giftClose = document.getElementById('giftClose');
 const LightMode = document.getElementById('LightMode');
@@ -67,7 +70,8 @@ function funcInput() {
     const btsGiftContainer = document.getElementById('btsGiftContainer');
     codeInput.addEventListener('input', () => {
         let code = codeInput.value;
-        if (code == 'XDR-HYT-11S') {
+        if (code == 'XDR-HYT-11S' && btsWish == false) {
+            btsWish = true;
             codeInput.classList.add('is-valid');
             codeInput.classList.remove('is-invalid');
             btsGiftContainer.classList.add('height-118rem');
@@ -129,7 +133,8 @@ function funcInput() {
             btsGifWishVideo.innerHTML = html;
             btsConcertContainer.innerHTML = ``;
         }
-        else if (code == 'G1Y-F24-56M') {
+        else if (code == 'G1Y-F24-56M' && btsConcert == false) {
+            btsConcert = true;
             codeInput.classList.add('is-valid');
             codeInput.classList.remove('is-invalid');
             const btsConcertContainer = document.getElementById('btsConcertContainer');
@@ -143,8 +148,19 @@ function funcInput() {
                         <h4 class="center">Live chats</h4>
                     </div>
                     <div id="allChats"> </div>
+                    <div class="sendMsgContainer">
+                        <img src="sd.jpg" alt="">
+                        <input type="text" placeholder="Send message to BTS" autocomplete="off" id="sendInp">
+                        <img src="send.png" alt="" id="sendBtn">
+                    </div>
                 </div>`;
             btsConcertContainer.innerHTML = html;
+
+            const sendBtn = document.getElementById('sendBtn');
+            const sendInp = document.getElementById('sendInp');
+            sendBtn.addEventListener('click', () => {
+                sendInp.value = `Unsuccess Server error (~_~) errorcode->752 try again`;
+            });
             $.getScript('chatMessage.js', () => {
                 let html = ``;
                 const allChats = document.getElementById('allChats');
@@ -168,7 +184,12 @@ function funcInput() {
             codeInput.classList.remove('is-valid');
             btsGiftContainer.innerHTML = ``;
             btsGifWishVideo.innerHTML = ``;
+            btsConcertContainer.innerHTML = ``;
             btsGiftContainer.classList.remove('height-118rem');
+            if (btsConcert && btsWish) {
+                html = `<h2 class="center">Code expired <br> You have alrady used both code</h2>`;
+                btsGiftContainer.innerHTML=html;
+            }
         }
     });
 }

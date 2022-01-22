@@ -234,7 +234,7 @@ video::-webkit-media-controls-timeline {
     color: white;
     border: 1px solid rgba(235, 228, 228, 0.1);
     border-radius: 5px;
-    max-height: 335px;
+    max-height: 380px;
     overflow-y: hidden;
     margin-bottom: 65px;
 }
@@ -282,6 +282,36 @@ video::-webkit-media-controls-timeline {
     cursor: none;
     float: right;
     margin-bottom: 8px;
+}
+
+.sendMsgContainer{
+    display: flex;
+    background: #a075a7;
+    position: sticky;
+    bottom: 0px;
+    height: 45px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sendMsgContainer img{
+    height: 35px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.sendMsgContainer input{
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid #a075a7;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+    height: 36px;
+    padding-left: 5px;
+}
+
+#sendBtn{
+    cursor: pointer;
 }
 
 .f-size-100{
