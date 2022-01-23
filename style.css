@@ -323,7 +323,7 @@ video::-webkit-media-controls-timeline {
 }
 
 .wishMeContainer img{
-    height: 390px;
+    height: 490px;
     width: 250px;
     border-radius: 15px;
 }
@@ -338,14 +338,14 @@ video::-webkit-media-controls-timeline {
     flex-direction: column;
     background: linear-gradient(to right top, #6c7ceb,#df65b9);
     border-radius: 30px;
-   overflow: hidden;
+    overflow: hidden;
 }
 
 .wishMeContainer .srutiImg{
     position: relative;
     margin-bottom: 50px;
     animation-name: slideAnimation;
-    animation-duration: 20s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-play-state: running;
@@ -353,7 +353,7 @@ video::-webkit-media-controls-timeline {
 
 @keyframes slideAnimation{
     0%{top: 800px;}
-    100%{top: -800px;}
+    100%{top: -725px;}
 }
 
 .wishMeContainer .wishMessageMe{

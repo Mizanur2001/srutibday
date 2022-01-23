@@ -134,6 +134,7 @@ function funcInput() {
                </div>`;
             btsGifWishVideo.innerHTML = html;
             btsConcertContainer.innerHTML = ``;
+            wishMeContainer.innerHTML = ``;
         }
         else if (code == 'G1Y-F24-56M' && btsConcert == false) {
             btsConcert = true;
@@ -179,19 +180,24 @@ function funcInput() {
             });
             btsGiftContainer.innerHTML = ``;
             btsGifWishVideo.innerHTML = ``;
+            wishMeContainer.innerHTML = ``;
             btsGiftContainer.classList.remove('height-118rem');
         }
         else if (code == 'MYD-SRT-MSJ') {
             codeInput.classList.add('is-valid');
             codeInput.classList.remove('is-invalid');
+            btsGiftContainer.innerHTML = ``;
+            btsGifWishVideo.innerHTML = ``;
+            btsConcertContainer.innerHTML = ``;
             const wishMeContainer = document.getElementById('wishMeContainer');
             html=`
             <div class="img">
-                <img src="sruti.jpg" alt="sruti" class="srutiImg">
-                <img src="sruti3.jpg" alt="sruti" class="srutiImg">
-                <img src="sruti2.jpg" alt="sruti" class="srutiImg">
-                <img src="sruti.jpg" alt="sruti" class="srutiImg">
-                <img src="sruti3.jpg" alt="sruti" class="srutiImg">
+                <img src="sruti/sruti1.jpg" alt="sruti" class="srutiImg">
+                <img src="sruti/sruti2.jpg" alt="sruti" class="srutiImg">
+                <img src="sruti/sruti3.jpg" alt="sruti" class="srutiImg">
+                <img src="sruti/sruti4.jpg" alt="sruti" class="srutiImg">
+                <img src="sruti/sruti5.jpg" alt="sruti" class="srutiImg">
+                <img src="sruti/sruti6.jpg" alt="sruti" class="srutiImg">
            </div>
            <img src="stand.png" alt="">
             <div class="wishMessageMe">
@@ -211,9 +217,10 @@ function funcInput() {
             btsGiftContainer.innerHTML = ``;
             btsGifWishVideo.innerHTML = ``;
             btsConcertContainer.innerHTML = ``;
+            wishMeContainer.innerHTML = ``;
             btsGiftContainer.classList.remove('height-118rem');
             if (btsConcert && btsWish) {
-                html = `<h2 class="center">Code expired <br> You have alrady used both code</h2>`;
+                html = `<h2 class="center">Code expired <br> You have alrady used both code <br>You can only use S-code</h2>`;
                 btsGiftContainer.innerHTML = html;
             }
         }
