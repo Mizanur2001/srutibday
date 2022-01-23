@@ -8,17 +8,18 @@ body{
     background-color: #06031d;
 }
 
+/* Dark White mode  container style*/
 #darkLightMode {
     margin-top: 2px;
     margin-left: 5px;
 }
 
+/*Birth day wish container(main)*/
 .birthDayWishContainer{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /*margin-top: 50px;*/
 }
 
 .birthDayWishH3{
@@ -30,6 +31,7 @@ body{
     font-family: 'Pacifico', cursive;
 }
 
+/*Gift Box*/
 .giftContainer{
     display: flex;
     align-items: center;
@@ -76,6 +78,7 @@ body{
     margin: 5px;
 }
 
+/*Code checking input */
 .inputTagContainer{
     display: flex;
     align-items: center;
@@ -93,6 +96,7 @@ body{
     outline: none;
 }
 
+/*BTS wishes message*/
 .message{
     height: 120px;
     max-width: 85%;
@@ -196,6 +200,7 @@ body{
     border-radius: 15px 15px 15px 0px;
 }
 
+/*YouTube video*/
 .iframeContainer{
     position: relative;
     width: 100%;
@@ -211,6 +216,7 @@ body{
     height: 100%;
 }
 
+/*BTS live concert Container*/
 .btsConcertContainer{
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -229,7 +235,7 @@ video::-webkit-media-controls-timeline {
     display: none;
 }
 
-
+/*Live chap Container*/
 .chatContainer{
     color: white;
     border: 1px solid rgba(235, 228, 228, 0.1);
@@ -314,6 +320,7 @@ video::-webkit-media-controls-timeline {
     cursor: pointer;
 }
 
+/*My wishes to Sruti Container*/
 .wishMeContainer{
     display: flex;
     align-items: center;
@@ -376,7 +383,7 @@ video::-webkit-media-controls-timeline {
 }
 
 
-
+/*Added some Utility Classes and over write some bootStrap Property*/
 .f-size-100{
     font-size: 100px;
 }

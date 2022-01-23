@@ -13,7 +13,7 @@ const birthDayWishContainer = document.getElementById('birthDayWishContainer');
 LightMode.addEventListener('click', () => {
     body.classList.add('lightMode');
     body.classList.remove('darkMode');
-    html = `<img src="darkMode.png" id="darktMode" alt="">`;
+    html = `<img src="others/darkMode.png" id="darktMode" alt="">`;
     darkLightMode.innerHTML = html;
     const darkMode = document.getElementById('darktMode');
     darkMode.addEventListener('click', () => {
@@ -28,7 +28,7 @@ LightMode.addEventListener('click', () => {
 giftClose.addEventListener('click', () => {
     html = `
     <div class="giftContainer" id="giftContainer">
-       <img src="gift_open.png" class="giftOpen" alt="gift_open">
+       <img src="others/gift_open.png" class="giftOpen" alt="gift_open">
      </div>`;
     giftContainer.innerHTML = html;
 
@@ -79,7 +79,7 @@ function funcInput() {
             btsGiftContainer.classList.add('height-118rem');
             html = `
                 <div class="rm left">
-                    <img src="rm.png" alt="rm">
+                    <img src="BTS/rm.png" alt="rm">
                     <div class="message rmWish">
                         <p> This is RM Happy Birth day Sruti</p>
                     </div>
@@ -89,11 +89,11 @@ function funcInput() {
                     <div class="message vWish">
                         <p>생일 축하해 스루티 💜💜💜💜</p>
                     </div>
-                    <img src="v.png" alt="v">
+                    <img src="BTS/v.png" alt="v">
                 </div>
 
                 <div class="jimin left">
-                    <img src="jimin.png" alt="jimin">
+                    <img src="BTS/jimin.png" alt="jimin">
                     <div class="message jiminWish">
                         <p>지민입니다. 생일 축하합니다. 너의 모든 꿈이 이루어진다</p>
                     </div>
@@ -103,27 +103,27 @@ function funcInput() {
                     <div class="message jinWish">
                         <p>헤이 군대 생일 축하해</p>
                     </div>
-                    <img src="jin.png" alt="jin">
+                    <img src="BTS/jin.png" alt="jin">
                 </div>
 
                 <div class="jk left">
-                    <img src="jk.png" alt="jk">
+                    <img src="BTS/jk.png" alt="jk">
                     <div class="message jkWish">
-                        <p>생일 축하해 군대 나는 너를 보라색으로 했어 💜</p>
+                        <p>생일 축하해 스루티. 나는 너를 보라색으로 만들었다 💜</p>
                     </div>
                 </div>
 
                 <div class="jhope right">
                     <div class="message jhopeWish">
-                        <p>생일 축하해 스루이이이이이이이이.....</p>
+                        <p>생일 축하해 스루티티티티티티티티티.....</p>
                     </div>
-                    <img src="jhope.png" alt="jhope">
+                    <img src="BTS/jhope.png" alt="jhope">
                 </div>
 
                 <div class="suga left">
-                    <img src="suga.png" alt="suga">
+                    <img src="BTS/suga.png" alt="suga">
                     <div class="message sugaWish">
-                        <p>생일 축하합니다 행복하고 번영하는 삶을 기원합니다 </p>
+                        <p>생일 축하합니다 행복하고 번영하는 삶을 기원합니다.. </p>
                     </div>
                 </div>`;
             btsGiftContainer.innerHTML = html;
@@ -144,7 +144,7 @@ function funcInput() {
             html = `
                 <div class="video">
                     <button class="liveBtn">LIVE</button>
-                    <video src="video.MP4" controls autoplay></video>
+                    <video src="others/video.MP4" controls autoplay></video>
                 </div>
                 <div class="chatContainer" id="chatContainer">
                     <div class="heading">
@@ -152,9 +152,9 @@ function funcInput() {
                     </div>
                     <div id="allChats"> </div>
                     <div class="sendMsgContainer">
-                        <img src="sd.png" alt="">
+                        <img src="others/sd.png" alt="">
                         <input type="text" placeholder="Send message to BTS" autocomplete="off" id="sendInp">
-                        <img src="send.png" alt="" id="sendBtn">
+                        <img src="others/send.png" alt="" id="sendBtn">
                     </div>
                 </div>`;
             btsConcertContainer.innerHTML = html;
@@ -199,7 +199,7 @@ function funcInput() {
                 <img src="sruti/sruti5.jpg" alt="sruti" class="srutiImg">
                 <img src="sruti/sruti6.jpg" alt="sruti" class="srutiImg">
            </div>
-           <img src="stand.png" alt="">
+           <img src="others/stand.png" alt="">
             <div class="wishMessageMe">
                 <h3>Happy Birth Day Sruti</h3>
                 <p>You know what i don't khon how to wish Happy Birth day properly. Because i never did this before I think so 🤔. i'm just shareing my feeling, you khow what when i wish some one, i think i'm just telling him/her a Cow Composition (like :- cow er akta tail thake er char ta pa thake ah gas khai and bla bla bla....) i think 🤔 he/she was thinking about me "ah to ase hi bol dia kuch to bol na tha so bol dia hain 🙃".I don't know what you are thinking right now but i wish you a happy Birth day . Dhak chis ami tor Birth day er din ki sob boke jachi ulta palta cow Composition amer feeling bole tor mood kharap kor chi 😅😅😅😅 sorry for that . er ha ei khane aber spelling Mistake Khujte bose jas na😂😂😂 er ha kichu kota jeta na bole parlam na...😂😂😂</p>
