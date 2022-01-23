@@ -55,6 +55,8 @@ giftClose.addEventListener('click', () => {
              <p>XDR-HYT-11S</p>
              <p>BTS Live Concert Ticket</p>
              <p>G1Y-F24-56M</p>
+             <p>S Code</p>
+             <p>MYD-SRT-MSJ</p>
           </div>
         </div>`;
         giftContainer.innerHTML = html;
@@ -149,7 +151,7 @@ function funcInput() {
                     </div>
                     <div id="allChats"> </div>
                     <div class="sendMsgContainer">
-                        <img src="sd.jpg" alt="">
+                        <img src="sd.png" alt="">
                         <input type="text" placeholder="Send message to BTS" autocomplete="off" id="sendInp">
                         <img src="send.png" alt="" id="sendBtn">
                     </div>
@@ -179,6 +181,30 @@ function funcInput() {
             btsGifWishVideo.innerHTML = ``;
             btsGiftContainer.classList.remove('height-118rem');
         }
+        else if (code == 'MYD-SRT-MSJ') {
+            codeInput.classList.add('is-valid');
+            codeInput.classList.remove('is-invalid');
+            const wishMeContainer = document.getElementById('wishMeContainer');
+            html=`
+            <div class="img">
+                <img src="sruti.jpg" alt="sruti" class="srutiImg">
+                <img src="sruti3.jpg" alt="sruti" class="srutiImg">
+                <img src="sruti2.jpg" alt="sruti" class="srutiImg">
+                <img src="sruti.jpg" alt="sruti" class="srutiImg">
+                <img src="sruti3.jpg" alt="sruti" class="srutiImg">
+           </div>
+           <img src="stand.png" alt="">
+            <div class="wishMessageMe">
+                <h3>Happy Birth Day Sruti</h3>
+                <p>You know what i don't khon how to wish Happy Birth day properly. Because i never did this before I think so 🤔. i'm just shareing my feeling, you khow what when i wish some one, i think i'm just telling him/her a Cow Composition (like :- cow er akta tail thake er char ta pa thake ah gas khai and bla bla bla....) i think 🤔 he/she was thinking about me "ah to ase hi bol dia kuch to bol na tha so bol dia hain 🙃".I don't know what you are thinking right now but i wish you a happy Birth day . Dhak chis ami tor Birth day er din ki sob boke jachi ulta palta cow Composition amer feeling bole tor mood kharap kor chi 😅😅😅😅 sorry for that . er ha ei khane aber spelling Mistake Khujte bose jas na😂😂😂 er ha kichu kota jeta na bole parlam na...😂😂😂</p>
+                <ul>
+                    <li>Janis tui cholo balai kaki ke "tatu" boltis🤣🤣🤣</li>
+                    <li>Kurkura ke "turture"🤣🤣🤣</li>
+                    <li>Er Sruti ke boltis "tuti"🤣🤣🤣</li>
+                </ul>
+         </div>`;
+            wishMeContainer.innerHTML = html;
+        }
         else {
             codeInput.classList.add('is-invalid');
             codeInput.classList.remove('is-valid');
@@ -188,7 +214,7 @@ function funcInput() {
             btsGiftContainer.classList.remove('height-118rem');
             if (btsConcert && btsWish) {
                 html = `<h2 class="center">Code expired <br> You have alrady used both code</h2>`;
-                btsGiftContainer.innerHTML=html;
+                btsGiftContainer.innerHTML = html;
             }
         }
     });

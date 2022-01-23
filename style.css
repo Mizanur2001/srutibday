@@ -61,7 +61,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 200px;
+    height: 285px;
     width: 330px;
     background: aliceblue;
     border-radius: 40PX;
@@ -313,6 +313,69 @@ video::-webkit-media-controls-timeline {
 #sendBtn{
     cursor: pointer;
 }
+
+.wishMeContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.wishMeContainer img{
+    height: 390px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.wishMeContainer .img {
+    border: 4px solid rgb(162, 0, 255);
+    height: 500px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to right top, #6c7ceb,#df65b9);
+    border-radius: 30px;
+   overflow: hidden;
+}
+
+.wishMeContainer .srutiImg{
+    position: relative;
+    margin-bottom: 50px;
+    animation-name: slideAnimation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes slideAnimation{
+    0%{top: 800px;}
+    100%{top: -800px;}
+}
+
+.wishMeContainer .wishMessageMe{
+    color: #2602f5;
+    font-family: 'Pacifico', cursive;
+}
+
+.wishMeContainer .wishMessageMe h3{
+    font-size: 30px;
+}
+
+.wishMeContainer .wishMessageMe p{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.wishMeContainer .wishMessageMe li{
+    text-align: left;
+}
+
+
 
 .f-size-100{
     font-size: 100px;
