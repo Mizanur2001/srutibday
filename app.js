@@ -192,8 +192,8 @@ function funcInput() {
             const wishMeContainer = document.getElementById('wishMeContainer');
             html=`
             <div class="img">
-                <img src="sruti/sruti1.jpg" alt="sruti" class="srutiImg">
-                <img src="sruti/sruti2.jpg" alt="sruti" class="srutiImg">
+                <img src="sruti/sruti1.JPG" alt="sruti" class="srutiImg">
+                <img src="sruti/sruti2.JPG" alt="sruti" class="srutiImg">
                 <img src="sruti/sruti3.jpg" alt="sruti" class="srutiImg">
                 <img src="sruti/sruti4.jpg" alt="sruti" class="srutiImg">
                 <img src="sruti/sruti5.jpg" alt="sruti" class="srutiImg">
