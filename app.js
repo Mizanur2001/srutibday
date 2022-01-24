@@ -11,7 +11,6 @@ const LightMode = document.getElementById('LightMode');
 const body = document.getElementById('body');
 const darkLightMode = document.getElementById('darkLightMode');
 const birthDayWishContainer = document.getElementById('birthDayWishContainer');
-audioPiano.play();
 
 LightMode.addEventListener('click', () => {
     body.classList.add('lightMode');
@@ -29,6 +28,7 @@ LightMode.addEventListener('click', () => {
 });
 
 giftClose.addEventListener('click', () => {
+    audioPiano.play();
     html = `
     <div class="giftContainer" id="giftContainer">
        <img src="others/gift_open.png" class="giftOpen" alt="gift_open">
