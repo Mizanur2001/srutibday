@@ -4,6 +4,10 @@ let messages = [
         "user": "1"
     },
     {
+        "message": "намоиши бузург",
+        "user": "1"
+    },
+    {
         "message": "😍😍😍😍😍",
         "user": "2"
     },
@@ -496,9 +500,8 @@ let messages = [
         "message": "vamos vamos vamos...",
         "user": "8"
     },
-    /*********** */
     {
-        "message": "Happy Birth Dey Sruti...",
+        "message": "Happy Birthday Sruti...",
         "user": "26"
     },
     {
@@ -722,7 +725,7 @@ let messages = [
         "user": "10"
     },
     {
-        "message": "Happy birth day..",
+        "message": "Happy birthday..",
         "user": "26"
     },
     {

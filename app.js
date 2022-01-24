@@ -1,5 +1,7 @@
 console.log("This is Sruti's Birth day Colsole.log");
 
+const audioSruti = new Audio('Audio/birthdayRingtone.mp3');
+const audioPiano = new Audio('Audio/pianoTone.mp3');
 let btsWish = false;
 let btsConcert = false;
 
@@ -9,6 +11,7 @@ const LightMode = document.getElementById('LightMode');
 const body = document.getElementById('body');
 const darkLightMode = document.getElementById('darkLightMode');
 const birthDayWishContainer = document.getElementById('birthDayWishContainer');
+audioPiano.play();
 
 LightMode.addEventListener('click', () => {
     body.classList.add('lightMode');
@@ -109,7 +112,7 @@ function funcInput() {
                 <div class="jk left">
                     <img src="BTS/jk.png" alt="jk">
                     <div class="message jkWish">
-                        <p>생일 축하해 스루티. 나는 너를 보라색으로 만들었다 💜</p>
+                        <p>생일 축하해 스루티. 나는 너를 보라색으로 만들었다 💜💜💜</p>
                     </div>
                 </div>
 
@@ -184,20 +187,22 @@ function funcInput() {
             btsGiftContainer.classList.remove('height-118rem');
         }
         else if (code == 'MYD-SRT-MSJ') {
+            audioSruti.play();
+            audioPiano.pause();
             codeInput.classList.add('is-valid');
             codeInput.classList.remove('is-invalid');
             btsGiftContainer.innerHTML = ``;
             btsGifWishVideo.innerHTML = ``;
             btsConcertContainer.innerHTML = ``;
             const wishMeContainer = document.getElementById('wishMeContainer');
-            html=`
+            html = `
             <div class="img">
                 <img src="sruti/sruti1.JPG" alt="sruti" class="srutiImg">
                 <img src="sruti/sruti2.JPG" alt="sruti" class="srutiImg">
                 <img src="sruti/sruti3.jpg" alt="sruti" class="srutiImg">
                 <img src="sruti/sruti4.jpg" alt="sruti" class="srutiImg">
                 <img src="sruti/sruti5.jpg" alt="sruti" class="srutiImg">
-                <img src="sruti/sruti6.jpg" alt="sruti" class="srutiImg">
+                <img src="sruti/sruti8.jpg" alt="sruti" class="srutiImg">
            </div>
            <img src="others/stand.png" alt="">
             <div class="wishMessageMe">
@@ -220,8 +225,10 @@ function funcInput() {
             wishMeContainer.innerHTML = ``;
             btsGiftContainer.classList.remove('height-118rem');
             if (btsConcert && btsWish) {
-                html = `<h2 class="center">Code expired <br> You have alrady used both code <br>You can only use S-code</h2>`;
-                btsGiftContainer.innerHTML = html;
+                if (code == 'G1Y-F24-56M' || code == 'XDR-HYT-11S') {
+                    html = `<h2 class="center">Code expired <br> You have alrady used both code <br>You can only use S-code</h2>`;
+                    btsGiftContainer.innerHTML = html;
+                }
             }
         }
     });
