@@ -84,7 +84,7 @@ function funcInput() {
                 <div class="rm left">
                     <img src="BTS/rm.png" alt="rm">
                     <div class="message rmWish">
-                        <p> This is RM Happy Birth day Sruti</p>
+                        <p> This is RM Happy Birthday Sruti</p>
                     </div>
                 </div>
 
@@ -206,8 +206,8 @@ function funcInput() {
            </div>
            <img src="others/stand.png" alt="">
             <div class="wishMessageMe">
-                <h3>Happy Birth Day Sruti</h3>
-                <p>You know what i don't khon how to wish Happy Birth day properly. Because i never did this before I think so 🤔. i'm just shareing my feeling, you khow what when i wish some one, i think i'm just telling him/her a Cow Composition (like :- cow er akta tail thake er char ta pa thake ah gas khai and bla bla bla....) i think 🤔 he/she was thinking about me "ah to ase hi bol dia kuch to bol na tha so bol dia hain 🙃".I don't know what you are thinking right now but i wish you a happy Birth day . Dhak chis ami tor Birth day er din ki sob boke jachi ulta palta cow Composition amer feeling bole tor mood kharap kor chi 😅😅😅😅 sorry for that . er ha ei khane aber spelling Mistake Khujte bose jas na😂😂😂 er ha kichu kota jeta na bole parlam na...😂😂😂</p>
+                <h3>Happy Birthday Miss Thinker</h3>
+                <p>Janis ami ei khane ki lik bo buje te parchi na eta nia ami 17 ber liklam er delete kor lam eta 18 no try kor chi jani na etow delete hobe ki na . Mane bujte parchi na ki vabe perfect Wish kor bo toke. Ei nia vab chi and Likchi but pore mone hoche eh ki sob Ulta palta likha chi 🙃🙃🙃 First te sob korea te like chilam . and ota translate kore sob ulta palta meaning hochilo ja ami boli ei ni 🙃🙃🙃 ter por english te like chilam to o tow delete kore dilam english gulo pore amer mone halo jano ami birat attiude dhaka chi toke 🙃🙃🙃 Ei 18 no ber ase ami Nije confused Ki vabe toke properly wish kori ami 🙃🙃🙃 . Ami sotti buje parchi na tobe ha ei tuku bol bo Happy Birthday and ha cow er Composition(like:- be happy in you life , be healthy in you life and so on...) er bolchi na Becuse tui oi gulo Deserve koris . Dhak ami tor birthday er din Ki sob ulta palta bolchi je ami confused ero sob ulta palta kotha 😅😅😅 sorry for that . And also sorry for mood kharap kora er janno ei sob ulta palta bole . er ha ei khane aber spelling Mistake Khujte bose jas na😂😂😂 er ha kichu kota jeta na bole parlam na...😂😂😂</p>
                 <ul>
                     <li>Janis tui cholo balai kaki ke "tatu" boltis🤣🤣🤣</li>
                     <li>Kurkura ke "turture"🤣🤣🤣</li>
