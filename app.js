@@ -133,7 +133,7 @@ function funcInput() {
 
             const btsGifWishVideo = document.getElementById('btsGifWishVideo');
             html = ` <div class="iframeContainer">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/pcrafxdvX9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     <iframe width="560" height="315" src="https://www.youtube.com/embed/DD3LeYSk7Lw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                </div>`;
             btsGifWishVideo.innerHTML = html;
             btsConcertContainer.innerHTML = ``;
